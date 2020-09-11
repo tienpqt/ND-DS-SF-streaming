@@ -19,7 +19,7 @@ What were the 2-3 most efficient SparkSession property key/value pairs? Through 
 
 Based on the answer from Question 1, we think that some most efficeient SparkSession property key/value pairs are maxOffsetsPerTrigger , maxRatePerPartition, and others for setting memory (spark.executor.memory, spark.executor.cores) or parallelism 
 
-Testing multiple variations on values **maxOffsetPerTrigger** and **maxRatePerPartition**, we can suggestion the most optimal in our actual configuration Spark Streaming enviroment (for example to optimize processRowsPerSecond at 360 rps, we can change these two parameters at 200, 100)
+Testing multiple variations on values **maxOffsetPerTrigger** and **maxRatePerPartition**, we can suggest the most optimal values in our actual configuration Spark Streaming environment (for example to optimize processRowsPerSecond at 360 rps, we can change these two parameters at 200, 100)
 
 ![alt text](question-capture-image/ChangeSparkOptionProcessPerSecond200-100.PNG)
 
