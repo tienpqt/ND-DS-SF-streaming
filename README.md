@@ -18,5 +18,5 @@ rate of data arriving (inputRowsPerSecond) and rate at which Spark is processing
 What were the 2-3 most efficient SparkSession property key/value pairs? Through testing multiple variations on values, how can you tell these were the most optimal?
 
 
-![alt text](http://url/to/img.png)
+![alt text](question-capture-image/ChangeSparkOptionProcessPerSecond100-10.PNG)
 
